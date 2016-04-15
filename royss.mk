@@ -14,6 +14,13 @@
 
 include device/samsung/msm7x27a-common/msm7x27a.mk
 
+## Bluetooth files
+PRODUCT_COPY_FILES += \
+    device/samsung/royss/prebuilt/bluetooth/init.bt.sh:system/etc/init.bt.sh \
+    device/samsung/royss/prebuilt/bluetooth/libbt-aptx.so:system/lib/libbt-aptx.so \
+    device/samsung/royss/prebuilt/bluetooth/libbt-codec.so:system/lib/libbt-codec.so \
+    device/samsung/royss/prebuilt/bluetooth/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so
+
 # Initlogo
 PRODUCT_COPY_FILES += \
     device/samsung/royss/ramdisk/initlogo.rle:root/initlogo.rle
