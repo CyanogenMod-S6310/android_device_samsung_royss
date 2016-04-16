@@ -21,8 +21,9 @@ PRODUCT_COPY_FILES += \
     device/samsung/royss/prebuilt/bluetooth/libbt-codec.so:system/lib/libbt-codec.so \
     device/samsung/royss/prebuilt/bluetooth/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so
 
-# Initlogo
+# Init files
 PRODUCT_COPY_FILES += \
+    device/samsung/royss/ramdisk/fstab.qcom:root/fstab.qcom \
     device/samsung/royss/ramdisk/initlogo.rle:root/initlogo.rle
 
 $(call inherit-product, vendor/samsung/royss/royss-vendor.mk)

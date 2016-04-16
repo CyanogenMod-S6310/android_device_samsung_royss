@@ -24,3 +24,6 @@ media.stagefright.enable-qcp=true
 
 # Audio
 lpa.decode=false
+
+# Display
+ro.sf.lcd_density=160

@@ -22,3 +22,8 @@ TARGET_BOOTLOADER_BOARD_NAME := royss
 
 ## Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_royss_defconfig
+
+## Recovery
+TARGET_RECOVERY_FSTAB := device/samsung/royss/ramdisk/fstab.qcom
+TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
+RECOVERY_FSTAB_VERSION := 2
