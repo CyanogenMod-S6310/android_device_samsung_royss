@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
 
 # Init files
 PRODUCT_COPY_FILES += \
-    device/samsung/royss/ramdisk/fstab.qcom:root/fstab.qcom \
     device/samsung/royss/ramdisk/initlogo.rle:root/initlogo.rle
 
 $(call inherit-product, vendor/samsung/royss/royss-vendor.mk)
